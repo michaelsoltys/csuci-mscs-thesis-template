@@ -1,0 +1,367 @@
+
+\documentclass[12pt]{article}
+%\topmargin=-0.5in
+%\textheight=9in
+%\evensidemargin=0in
+%\oddsidemargin=0in
+%\setlength{\textwidth}{6.5in}
+
+\usepackage{amsmath,latexsym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amssymb}
+\usepackage{graphicx}
+%\usepackage{appendix}
+%\usepackage{clrscode3e}
+\usepackage{epstopdf}
+\usepackage{subfigure}
+%\usepackage{algorithm}
+%\usepackage{algorithmic}
+\usepackage{setspace}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{setspace}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage[all]{xy}
+% \doublespacing
+\renewcommand{\topfraction}{0.9}	% max fraction of floats at top
+\renewcommand{\bottomfraction}{0.8}	% max fraction of floats at bottom
+%   Parameters for TEXT pages (not float pages):
+\setcounter{topnumber}{2}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}      % 2 may work better
+\setcounter{dbltopnumber}{2}    % for 2-column pages
+\renewcommand{\dbltopfraction}{0.9}	% fit big float above 2-col. text
+\renewcommand{\textfraction}{0.07}	% allow minimal text w. figs
+%   Parameters for FLOAT pages (not text pages):
+    \renewcommand{\floatpagefraction}{0.7}	% require fuller float pages
+% N.B.: floatpagefraction MUST be less than topfraction !!
+\renewcommand{\dblfloatpagefraction}{0.7}	% require fuller float pages
+
+\newenvironment{dig}{\\ [6pt]\noindent {\bf Digression}}{~$\Box$\\ [6pt]\indent}
+\newenvironment{dig1}{\noindent {\bf Digression}}{~$\Box$\\ [6pt]\indent}
+\newtheorem{alg}{\hspace{1.3in} Algorithm}
+\newtheorem{thrm}{Theorem}
+\newtheorem{lemm}[thrm]{Lemma}
+\newtheorem{conj}[thrm]{Conjecture}
+%\newtheorem{claim}[thrm]{Claim}
+\newtheorem{prop}[thrm]{Proposition}
+\newtheorem{defn}[thrm]{Definition}
+\newtheorem{obs}[thrm]{Observation}
+
+\hyphenation{Chris-to-dou-lak-is}
+\def\proof{\bigbreak\noindent {\sl Proof.\/}\enspace}
+\def\qedbox#1#2{\vbox{\hrule height.2pt
+  \hbox{\vrule width.2pt height#2pt \kern#1pt \vrule width.2pt}
+  \hrule height.2pt}}
+\def\qed{\hfill \quad\qedbox46\newline\smallbreak}
+
+\def\s#1{\mbox{\boldmath $#1$}}
+\def\floor#1{\lfloor #1 \rfloor}
+\def\bfloor#1{\big\lfloor #1 \big\rfloor}
+\def\Bfloor#1{\Big\lfloor #1 \Big\rfloor}
+\def\ceil#1{\lceil #1 \rceil}
+\def\bceil#1{\big\lceil #1 \big\rceil}
+\def\+{\!+\!}
+\def\-{\!-\!}
+\def\plmi{\!\pm\!}
+\def\m{\!-\!}
+\def\uu#1{\underline{#1}}
+\def\o#1{\overline{#1}}
+\def\itbf#1{\textit{\textbf{#1}}}
+\def\match{\approx}
+\def\cP{\mathcal{P}}
+\def\G{\mathcal{G}}
+\def\B{\mathcal{B}}
+\def\O{\mathcal{O}}
+
+\def\bproc{{\bf procedure\ }}
+\def\bfunc{{\bf function\ }}
+\def\bvar{{\bf var\ }}
+\def\barray{{\bf array\ }}
+\def\bof{{\bf of\ }}
+\def\bfor{{\bf for\ }}
+\def\bnull{{\bf null\ }}
+\def\bto{{\bf to\ }}
+\def\bdownto{{\bf downto\ }}
+\def\bwhile{{\bf while\ }}
+\def\brep{{\bf repeat\ }}
+\def\buntil{{\bf until\ }}
+\def\band{{\bf and\ }}
+\def\bor{{\bf or\ }}
+\def\bdo{{\bf do\ }}
+\def\bif{{\bf if\ }}
+\def\bthen{{\bf then\ }}
+\def\belse{{\bf else\ }}
+\def\belsif{{\bf elsif\ }}
+\def\bnot{{\bf not\ }}
+\def\bgoto{{\bf goto\ }}
+\def\bcontinue{{\bf continue\ }}
+\def\breturn{{\bf return\ }}
+\def\bbreak{{\bf break\ }}
+\def\boutput{{\bf output}}
+\def\la{\leftarrow}
+\def\ra{\rightarrow}
+\def\llra{\Leftrightarrow}
+\def\q{\quad}
+\def\qq{\qquad}
+\def\com#1{{\bf $\triangleright$}\hspace{6pt}{\sl #1}}
+\def\rem#1{\hspace{24pt}{\sl #1}}
+\def\pref(#1,#2){$#1$ is a prefix of $#2$}
+\def\suff(#1,#2){$#1$ is a suffix of $#2$}
+\def\FIND{\mbox{FIND}}
+\def\reg(#1,#2){$#2$ is $#1$-regular}
+\def\notreg(#1,#2){$#2$ is not $#1$-regular}
+\def\top{\tt{top}}
+\def\pop{\tt{pop}}
+\def\push{\tt{push}}
+\def\true{\tt{true}}
+\def\false{\tt{false}}
+\def\UPDATE\_F{\tt{UPDATE\_F}}
+\def\LEAST{\tt{LEAST}}
+\def\MERGE{\tt{MERGE}}
+\def\mec{\tt{mec}}
+\def\MEC{\tt{MEC}}
+\def\CMEC{\tt{CMEC}}
+\def\MELC{\tt{MELC}}
+\def\CMELC{\tt{CMELC}}
+\def\MELS{\tt{MELS}}
+\def\CMELS{\tt{CMELS}}
+\def\MCNT{\tt{MaxCount}}
+\def\CLEN{\tt{CorLen}}
+
+% \def\B{\tt{B}}
+\def\Q'{\tt{Q'}}
+\def\CP{\tt{CP}}
+\def\MNC{\tt{MNC}}
+\def\PR{\tt{PR}}
+\def\PRS{\tt{PRS}}
+\def\CPR{\tt{CPR}}
+% \def\POS{\tt{POS}}
+\def\LEN{\tt{LEN}}
+\newcommand{\dd}{\mathinner{\ldotp\ldotp}}
+
+\newif\ifShow
+\Showfalse
+% MATH -----------------------------------------------------------
+\newcommand{\norm}[1]{\left\Vert#1\right\Vert}
+\newcommand{\abs}[1]{\left\vert#1\right\vert}
+\newcommand{\set}[1]{\left\{#1\right\}}
+\newcommand{\Real}{\mathbb R}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\To}{\longrightarrow}
+\newcommand{\BX}{\mathbf{B}(X)}
+\newcommand{\A}{\mathcal{A}}
+% Algorithm ------------------------------------------------------
+
+\algnewcommand{\LineComment}[1]{\State \(\triangleright\) \normalfont{\sl #1}}
+\algtext*{EndWhile}% l
+\algtext*{EndIf}% Remove "end if" text
+\algtext*{EndFor}% Remove "end for" text
+\algtext*{EndFor}% Remove "end for" text
+\algtext*{EndProcedure}% Remove "end procedure" text
+
+% manifold
+\newcommand{\F}{{F}}
+\newcommand{\scF}{\F}
+\newcommand{\X}{{X}}
+\newcommand{\Fhat}{\widehat\F}
+\newcommand{\scN}{{\EuScript N}}
+\newcommand{\scL}{{\EuScript L}}
+\newcommand{\PP}{\mathbb P}
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+% \newcommand{\CP}{\C\PP}
+\newcommand{\CH}{\C{\mathrm H}}
+\newcommand{\Lie}{{\mathcal L}}
+\newcommand{\cpn} {\CP^n}
+\newcommand{\chn} {\CH^n}
+\newcommand{\cptwo} {\CP^2}
+\newcommand{\chtwo} {\CH^2}
+\newcommand{\chone} {\CH^1}
+%\newcommand{\mean}{{\mathcal m}}
+\newcommand{\mean}{{\mathbf m}}
+%\def\({\left (}
+\def\({\left(}
+%\def\){\right )}
+\def\){\right)}
+\def\<{\langle}
+\def\>{\rangle}
+\def\a {\alpha}
+\def\b {\beta}
+\def\l {\lambda}
+
+% Pfaffian systems
+\newcommand{\CC}{{\EuScript C}}
+\newcommand{\I}{{\mathcal I}}
+\newcommand{\J}{{\EuScript J}}
+\newcommand{\K}{{\mathcal K}}
+\newcommand{\Khat}{\widehat{\K}}
+\newcommand{\M}{{\mathcal M}}
+\newcommand{\V}{\mathcal V}
+\newcommand{\calS}{\mathcal S}
+
+% differential forms
+\newcommand{\w}{\omega}
+\newcommand{\kh}{\hat\kappa}
+\newcommand{\diff}{{\operatorname{diff}}}
+% \newcommand{\alg}{{\operatorname{alg}}}
+
+%maps
+\newcommand{\fhat}{\hat{f}}
+
+%open sets
+\newcommand{\setU}{\EuScript U}
+\newcommand{\Uhat}{\widehat{\setU}}
+
+% vectors
+\newcommand{\e}{\mathbf e}
+\newcommand{\ehat}{\hat{\e}}
+\newcommand{\bv}{\mathbf v}
+\newcommand{\bx}{\mathbf x}
+\newcommand{\bg}{\mathbf g}
+\newcommand{\by}{\mathbf y}
+\newcommand{\bw}{\mathbf w}
+\newcommand{\bxi}{\mathbf\xi}
+\newcommand{\bn}{\mathbf n}
+\newcommand{\bz}{\mathbf z}
+
+% complex variables
+\newcommand{\ri}{\mathrm i}
+\newcommand{\realpart}{\operatorname{Re}}
+
+% operators
+\newcommand{\JJ}{{\mathrm J}} % complex structure
+\newcommand{\RR}{{\sf R}} % curvature operator
+\newcommand{\Ric}{{\sf Ric}} % Ricci tensor
+\newcommand{\di}{\partial}
+\newcommand{\dib}[1]{\di_{#1}}
+\newcommand{\tvec}{\tfrac{\di}{\di t}}
+\newcommand{\restr}{\negthickspace \mid}
+\newcommand{\transpose}[1]{{}^t\hskip-2pt{#1}}
+\newcommand{\nat}{\widetilde\nabla}
+\newcommand{\RRt}{\widetilde R}
+\newcommand{\mt}{\widetilde M}
+\def\intprod{\mathbin{\raisebox{.4ex}{\hbox{\vrule height .5pt width
+5pt depth 0pt %
+         \vrule height 3pt width .5pt depth 0pt}}}}
+\newcommand{\hook}{\intprod}
+\def\&{\wedge}
+% \def\s{\sigma}
+\def\a{\alpha}
+\def\b{\beta}
+\def\n{\nabla}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+{\Large \bfseries Thesis Title \par}
+
+\vspace{2 cm}
+\baselineskip = 2\baselineskip
+A Thesis Presented to \\
+The Faculty of the Computer Science Department\\
+California State University Channel Islands
+
+\vspace{1 cm}
+
+In (Partial) Fulfillment\\
+of the Requirements for the Degree\\
+Masters of Science in Computer Science\\
+
+\vspace{1 cm }
+
+\vfill
+
+by \\
+Student Name\\
+Advisor: Advisor Name\\
+Month Year
+\end{center}
+\end{titlepage}
+\baselineskip = \baselineskip
+
+\newpage
+\null
+\vfill
+\begin{flushleft}
+\copyright\; Year\\
+Student Name\\
+ALL RIGHTS RESERVED
+\end{flushleft}
+\newpage
+
+\begin{center}
+{\large \bfseries APPROVED FOR THE SCHOOL OF EDUCATION \par}
+
+\vspace{1.5 cm}
+
+\hrulefill\\
+{\large \bfseries Advisor: Advisor Name \hfill Date \par}
+
+\vspace{1.5 cm}
+
+\hrulefill\\
+{\large \bfseries Name \hfill Date \par}
+
+\vspace{1.5 cm}
+
+\hrulefill\\
+{\large \bfseries Name \hfill Date \par}
+
+\vspace{3 cm}
+
+{\large \bfseries APPROVED FOR THE UNIVERITY \par}
+
+\vspace{1.5 cm}
+
+\hrulefill\\
+{\large \bfseries Name \hfill Date \par}
+\end{center}
+
+\newpage
+
+\title{Thesis Title} 
+\author{Student Name}
+
+\date{\today}
+\maketitle
+
+\begin{abstract}
+\end{abstract}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\listoffigures
+
+\newpage
+
+\section{Introduction}
+\label{sect-intro}
+
+An example citation: \cite{graves-1995}
+
+\newpage
+\section{Background}
+\label{sect-background}
+
+Your work goes here
+
+\newpage
+\section{Conclusion and future work}
+\label{sect-conclusion}
+
+Your work goes here
+
+\newpage
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
+
