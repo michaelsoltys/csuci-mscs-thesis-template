@@ -5,7 +5,8 @@ program (http://www.msoltys.com)
 ### Introduction
 
 This repository contains the files required for a proper LaTeX
-submission of an MSCS thesis. Follow the instructions in
+submission of an MSCS thesis CSU Channel Islands. Follow the
+instructions in:
 ```
 EU MS Thesis Submission Procedure.pdf
 ```
@@ -31,9 +32,9 @@ modified by hand.
 
 ### Using Thesis Template
 
-1. Make sure to replace Names, Titles, and Dates with real values
-2. References should be put in `references.bib` file in bibtex format
-3. Building is done with pdflatex and bibtex with the following commands
+- Make sure to replace Names, Titles, and Dates with real values
+- References should be put in `references.bib` file in bibtex format
+- Building is done with pdflatex and bibtex with the following commands
 ```
 pdflatex <thesis>.tex && bibtex <thesis> && pdflatex <thesis>.tex && pdflatex <thesis>.tex
 ```
