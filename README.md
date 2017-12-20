@@ -39,4 +39,13 @@ modified by hand.
 pdflatex <thesis>.tex && bibtex <thesis> && pdflatex <thesis>.tex && pdflatex <thesis>.tex
 ```
 
+### Further resources
+
+I am maintaining a page on doing graduate research, with helpful
+articles and a slides from a presentation given for MSCS students at
+the beginning of each academic year. Ask me for the password if you
+would like to have access to this page:
+
+http://soltys.cs.csuci.edu/blog/?page_id=2810
+
 Best of Luck!
