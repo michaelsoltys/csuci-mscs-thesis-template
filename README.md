@@ -1,6 +1,7 @@
 This page is maintained by Michael Soltys, Chair of Computer Science at
 CSU Channel Islands, and director of the Computer Science masters
-program (http://www.msoltys.com)
+program (http://www.msoltys.com). Thank you to Joel Helling for
+providing his template (https://github.com/joelhelling)
 
 ### Introduction
 
