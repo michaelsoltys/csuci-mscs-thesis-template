@@ -1,8 +1,6 @@
-This page is mainted by Michael Soltys, Chair of Computer Science at
+This page is maintained by Michael Soltys, Chair of Computer Science at
 CSU Channel Islands, and director of the Computer Science masters
-program. See:
-
-http://www.msoltys.com
+program (http://www.msoltys.com)
 
 ### Introduction
 
