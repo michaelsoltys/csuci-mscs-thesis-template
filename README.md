@@ -16,6 +16,10 @@ Web site for general information about MSCS:
 
 https://compsci.csuci.edu/degrees/mscs/index.htm
 
+The files `ThesisTemplate.*` contain the templates for writing the
+thesis in LaTeX in the required format (double spaced, proper margins,
+cover pages, etc.).
+
 ### Required files for Thesis Submission to the Broome Library
 
 - Page 1: Cover Page
@@ -27,7 +31,7 @@ https://compsci.csuci.edu/degrees/mscs/index.htm
 ### Using Thesis Template
 
 1. Make sure to replace Names, Titles, and Dates with real values
-2. References should be put in references.bib file in bibtex format
+2. References should be put in `references.bib` file in bibtex format
 3. Building is done with pdflatex and bibtex with the following commands
 ```
 pdflatex <thesis>.tex && bibtex <thesis> && pdflatex <thesis>.tex && pdflatex <thesis>.tex
