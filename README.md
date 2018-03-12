@@ -42,11 +42,11 @@ pdflatex <thesis>.tex && bibtex <thesis> && pdflatex <thesis>.tex && pdflatex <t
 
 ### Example Thesis Defense Announcement
 
-The file
+The folder
 ```
-example-thesis-announcement.pdf
+DefenseAnnouncement
 ```
-contains an example thesis defense announcement. If someone wants to
+contains example thesis defense announcements. If someone wants to
 compose a template LaTeX source, let's pull it into this repository
 for others to use.
 
