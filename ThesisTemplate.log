@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.17)  10 FEB 2018 14:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.17)  2 APR 2018 15:54
 entering extended mode
 **./ThesisTemplate.tex
 (ThesisTemplate.tex
@@ -382,67 +382,154 @@ Xy-pic pdf driver: `line' extension support
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-li.tex" loaded)
 Xy-pic pdf driver: `rotate' extension support
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-ro.tex" loaded) loaded))
-\c@alg=\count131
-\c@thrm=\count132
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count131
+\calc@Bcount=\count132
+\calc@Adimen=\dimen154
+\calc@Bdimen=\dimen155
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count133
+\calc@Cskip=\skip57
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+))
+\AM@pagewidth=\dimen156
+\AM@pageheight=\dimen157
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box36
+\AM@global@opts=\toks31
+\AM@toc@title=\toks32
+\c@AM@survey=\count134
+\AM@templatesizebox=\box37
+)
+\c@alg=\count135
+\c@thrm=\count136
 
 (ThesisTemplate.aux)
 \openout1 = `ThesisTemplate.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 257.
+LaTeX Font Info:    ... okay on input line 257.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 257.
+LaTeX Font Info:    ... okay on input line 257.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 257.
+LaTeX Font Info:    ... okay on input line 257.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 257.
+LaTeX Font Info:    ... okay on input line 257.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 257.
+LaTeX Font Info:    ... okay on input line 257.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 257.
+LaTeX Font Info:    ... okay on input line 257.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count133
-\scratchdimen=\dimen154
-\scratchbox=\box36
-\nofMPsegments=\count134
-\nofMParguments=\count135
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count136
-\MPscratchDim=\dimen155
-\MPnumerator=\count137
-\makeMPintoPDFobject=\count138
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count137
+\scratchdimen=\dimen158
+\scratchbox=\box38
+\nofMPsegments=\count138
+\nofMParguments=\count139
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count140
+\MPscratchDim=\dimen159
+\MPnumerator=\count141
+\makeMPintoPDFobject=\count142
+\everyMPtoPDFconversion=\toks34
 )
-\c@lstlisting=\count139
-LaTeX Font Info:    Try loading font information for U+lasy on input line 256.
+\c@lstlisting=\count143
+LaTeX Font Info:    Try loading font information for U+lasy on input line 257.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 256.
+LaTeX Font Info:    Try loading font information for U+msa on input line 257.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 256.
+LaTeX Font Info:    Try loading font information for U+msb on input line 257.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package xypdf Info: Line width: 0.47998pt on input line 256.
- [1
+Package xypdf Info: Line width: 0.47998pt on input line 257.
+\AtBeginShipoutBox=\box39
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 291.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 292.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 291.
- [1] [2] [3]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 292.
+ [1] [2]
+<DistributionLicense.pdf, id=14, 614.295pt x 794.97pt>
+File: DistributionLicense.pdf Graphic file (type pdf)
+
+<use DistributionLicense.pdf>
+Package pdftex.def Info: DistributionLicense.pdf used on input line 328.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: DistributionLicense.pdf Graphic file (type pdf)
+ <use DistributionLicense.pdf>
+Package pdftex.def Info: DistributionLicense.pdf used on input line 328.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<DistributionLicense.pdf, id=17, page=1, 614.295pt x 794.97pt>
+File: DistributionLicense.pdf Graphic file (type pdf)
+
+<use DistributionLicense.pdf, page 1>
+Package pdftex.def Info: DistributionLicense.pdf, page1 used on input line 328.
+
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: DistributionLicense.pdf Graphic file (type pdf)
+ <use DistributionLicense.pdf, page 1>
+Package pdftex.def Info: DistributionLicense.pdf, page1 used on input line 328.
+
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: DistributionLicense.pdf Graphic file (type pdf)
+
+<use DistributionLicense.pdf, page 1>
+Package pdftex.def Info: DistributionLicense.pdf, page1 used on input line 328.
+
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: DistributionLicense.pdf Graphic file (type pdf)
+ <use DistributionLicense.pdf, page 1>
+Package pdftex.def Info: DistributionLicense.pdf, page1 used on input line 328.
+
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: DistributionLicense.pdf Graphic file (type pdf)
+
+<use DistributionLicense.pdf, page 1>
+Package pdftex.def Info: DistributionLicense.pdf, page1 used on input line 328.
+
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [3 <./DistributionLicense.pdf>] [4]
 (ThesisTemplate.toc)
 \tf@toc=\write4
 \openout4 = `ThesisTemplate.toc'.
@@ -454,22 +541,22 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
  [2] [1] [2] [3]
 (ThesisTemplate.bbl) [4] (ThesisTemplate.aux) ) 
 Here is how much of TeX's memory you used:
- 7272 strings out of 493333
- 94879 string characters out of 3139194
- 202371 words of memory out of 3000000
- 10637 multiletter control sequences out of 15000+200000
+ 8076 strings out of 493333
+ 108199 string characters out of 3139194
+ 218655 words of memory out of 3000000
+ 11410 multiletter control sequences out of 15000+200000
  15443 words of font info for 66 fonts, out of 3000000 for 9000
  1142 hyphenation exceptions out of 8191
- 42i,6n,32p,3291b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,18n,43p,3248b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on ThesisTemplate.pdf (10 pages, 79377 bytes).
+Output written on ThesisTemplate.pdf (11 pages, 85530 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
