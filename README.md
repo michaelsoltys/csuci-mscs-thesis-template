@@ -40,6 +40,17 @@ modified by hand.
 pdflatex <thesis>.tex && bibtex <thesis> && pdflatex <thesis>.tex && pdflatex <thesis>.tex
 ```
 
+### Example Thesis Defense Announcement
+
+The folder
+```
+DefenseAnnouncement
+```
+contains example thesis defense announcements. If someone wants to
+compose a template LaTeX source, let's pull it into this repository
+for others to use.
+
+
 ### Further resources
 
 I am maintaining a page on doing graduate research, with helpful
