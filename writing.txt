@@ -3,7 +3,9 @@ by Michael Soltys
 June 11, 2018
 
 Writing a masters thesis can seem a daunting task. This short document
-offers some guidance to make the process more manageable. 
+offers some guidance to make the process more manageable. Please keep
+in mind that you should follow the lead of your adviser who may have
+different suggestions; this write up is to serve as informal guidance.
 
 Most theses take a form similar to the following:
 
@@ -16,7 +18,7 @@ Most theses take a form similar to the following:
 The first chapter, Introduction, contains a short motivation to the
 topic of the thesis, and a list of 2 or 3 (or more) contributions of
 the author (you). These contributions are specific; that is,
-"introducing machine learning to self-driving cars" is to broad, but
+"introducing machine learning to self-driving cars" is too broad, but
 "implementing algorithm X in C++ and showing that it is twice as fast
 as the best contender on inputs over the binary alphabet" is a
 specific contribution.
@@ -35,7 +37,7 @@ consists in a detailed description of the contributions that you first
 listed in the Introduction. This chapter is the technical work of the
 thesis, and if the contribution is conceptual it will include
 justifications such as mathematical proofs, and if it is a program it
-will contains snippets of code and links to GitHub repositories. This
+will contain snippets of code and links to GitHub repositories. This
 is the chapter that will be read in detail by someone who may want to
 make use of your contributions.
 
