@@ -9,7 +9,7 @@ This repository contains the files required for a proper LaTeX
 submission of an MSCS thesis CSU Channel Islands. Follow the
 instructions in:
 ```
-media/EU MS Thesis Submission Procedure.pdf
+eu-ms-thesis-submission-procedure.pdf
 ```
 for the technicalities of a submission to EU. See the Computer Science
 Web site for general information about MSCS:

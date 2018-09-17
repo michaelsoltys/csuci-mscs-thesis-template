@@ -1,4 +1,3 @@
-
 \documentclass[12pt]{article}
 %\topmargin=-0.5in
 %\textheight=9in
@@ -7,91 +6,32 @@
 %\setlength{\textwidth}{6.5in}
 
 \input{project-info}
-
 \input{preamble}
-
-\begin{document}
-
-\begin{titlepage}
-\pagenumbering{gobble}
-\begin{center}
-{\Large \bfseries \thesistitle \par}
-
-\vspace{2 cm}
-\baselineskip = 2\baselineskip
-A Thesis Presented to \\
-The Faculty of the Computer Science Department\\
-California State University Channel Islands
-
-\vspace{1 cm}
-
-In (Partial) Fulfillment\\
-of the Requirements for the Degree\\
-Masters of Science in Computer Science\\
-
-\vspace{1 cm }
-
-\vfill
-
-by \\
-\studentname\\
-Advisor: \advisorname\\
-Month Year
-\end{center}
-\end{titlepage}
-\baselineskip = \baselineskip
-
-\newpage
-\null
-\vfill
-\begin{flushleft}
-\copyright\; Year\\
-\studentname\\
-ALL RIGHTS RESERVED
-\end{flushleft}
-\newpage
-
-\begin{center}
-{\large \bfseries APPROVED FOR MS IN COMPUTER SCIENCE \par}
-
-\vspace{1.5 cm}
-
-\hrulefill\\
-{\large \bfseries Advisor: \advisorname \hfill Date \par}
-
-\vspace{1.5 cm}
-
-\hrulefill\\
-{\large \bfseries Name \hfill Date \par}
-
-\vspace{1.5 cm}
-
-\hrulefill\\
-{\large \bfseries Name \hfill Date \par}
-
-\vspace{3 cm}
-
-{\large \bfseries APPROVED FOR THE UNIVERITY \par}
-
-\vspace{1.5 cm}
-
-\hrulefill\\
-{\large \bfseries Name \hfill Date \par}
-\end{center}
-
-\newpage
-
-\includepdf{media/distribution-license.pdf}
-
-\newpage
 
 \title{\thesistitle} 
 \author{\studentname}
-
 \date{\today}
+
+\begin{document}
+
+\input{pages/frontpage}
+\baselineskip = \baselineskip
+\newpage
+
+\input{pages/copyrightpage}
+\newpage
+
+\input{pages/approvalpage}
+\newpage
+
+\includepdf{media/distribution-license.pdf}
+\newpage
+
+
 \maketitle
 
 \begin{abstract}
+	Abstract goes here
 \end{abstract}
 
 \newpage
@@ -108,24 +48,21 @@ ALL RIGHTS RESERVED
 
 \section{Introduction}
 \label{sect-intro}
+\input{pages/introduction}
 
-An example citation: \cite{graves-1995}
-
-\newpage
 \section{Background}
 \label{sect-background}
+\input{pages/background}
 
-Your work goes here
-
-\newpage
 \section{Conclusion and future work}
 \label{sect-conclusion}
+\input{pages/conclusion}
 
-Your work goes here
-
-\newpage
+\cleardoublepage
+\phantomsection
 \bibliographystyle{plain}
 \bibliography{references}
+\addcontentsline{toc}{section}{References}
 
 \end{document}
 
