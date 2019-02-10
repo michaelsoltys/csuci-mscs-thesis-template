@@ -1,7 +1,11 @@
 This page is maintained by Michael Soltys, Chair of Computer Science at
 CSU Channel Islands, and director of the Computer Science masters
-program (http://www.msoltys.com). Thank you to Joel Helling for
-providing his template (https://github.com/joelhelling)
+program (http://www.msoltys.com). Thank you to @joelhelling for
+providing the original template and for the following contributors:
+
+- @jonasmh
+- @arewhyaeenn
+- @rihbyne
 
 ### Introduction
 
@@ -59,6 +63,6 @@ articles and a slides from a presentation given for MSCS students at
 the beginning of each academic year. Ask me for the password if you
 would like to have access to this page:
 
-http://soltys.cs.csuci.edu/blog/?page_id=2810
+http://www.msoltys.com/?page_id=2810
 
 Best of Luck!
